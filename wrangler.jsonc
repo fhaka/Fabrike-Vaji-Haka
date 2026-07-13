@@ -1,0 +1,10 @@
+{
+  // Cloudflare Worker — static assets only (no server code).
+  // Serves every file in the project root (index.html, css/, js/, assets/,
+  // robots.txt, sitemap.xml) directly. Fixes root files 404-ing.
+  "name": "fabrikevajihaka",
+  "compatibility_date": "2024-11-06",
+  "assets": {
+    "directory": "./"
+  }
+}
